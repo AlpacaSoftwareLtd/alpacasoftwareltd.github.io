@@ -20,7 +20,6 @@ title      : Alpaca Software
 email      : alpacasoftwareltd@gmail.com #this is also the email contact forms will go to
 description: "Quality software and best practices"
 author     : Manos
-socialurl-linkedin: "https://www.linkedin.com/company/74700418"
 
 logo:     #optional, defaults to site title
   path: assets\img\alpacalogo_notext.png
