@@ -71,7 +71,10 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: >
+      We are a London-based consultancy helping startups and other organizations to create
+      great products. What sets us apart from the competition, is that we will deliver
+      maintenable, documented and tested code following industry best practices.
     section: about
 
   clients:
