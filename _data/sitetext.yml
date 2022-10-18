@@ -73,9 +73,8 @@ en: &DEFAULT_EN
     text: "our story"
     body: >
       We are a small London consultancy helping startups and other organizations to create
-      great products. We deliver well crafted code with documentation, test coverage and
-      following best practices. Our aim is to provice software that will last and will be
-      easy to build upon.
+      great products. We deliver well crafted code with documentation and test-suite
+      following **best practices**. Our aim is to provice something easy to maintain and build upon.
     section: about
 
   clients:
