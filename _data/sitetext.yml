@@ -131,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Send us an enquiry in the form below"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -153,8 +153,8 @@ en: &DEFAULT_EN
       #   icon: "fab fa-facebook-f"
       - url: "https://www.linkedin.com/company/74700418"
         icon: "fab fa-linkedin-in"
-      # - url: https://github.com/raviriley/agency-jekyll-theme
-      #   icon: "fab fa-github"
+      - url: https://github.com/AlpacaSoftwareLtd
+        icon: "fab fa-github"
       # - url: https://instagram.com
       #   icon: "fab fa-instagram"
 en-US:
