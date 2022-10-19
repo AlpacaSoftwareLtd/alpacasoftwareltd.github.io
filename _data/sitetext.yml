@@ -22,22 +22,22 @@ en: &DEFAULT_EN
       We utilize Python frameworks to solve most of our backend challenges and Vue.JS when frontend is calling.
     section: services
     list:
-      - title: "Automation"
+
+      - title: "MVP"
         desc: >
-          We can help you automate business or development processes. This includes introducing test-suites, task managers, deployment
-          tooling and more.
-        icon: fas fa-robot  #find more at https://fontawesome.com/icons
+          From your business idea to a deployed service. We can take your business idea and make a first iteration with the core functionality ready for user testing.
+        icon: fas fa-feather #find more at https://fontawesome.com/icons
 
       - title: "Web applications"
         desc: >
-          We can help you build a full-fledged web application or REST APIs from just mockups or a general idea. Happy to sit down
-          and design something together.
-        icon: fas fa-window-maximize #find more at https://fontawesome.com/icons
+          From mockups to full-fledged web applications. Or if you need new additions or migrations to your existing application, we are more than happy to help.
 
-      - title: "Microservices"
+        icon: far fa-window-maximize #find more at https://fontawesome.com/icons
+
+      - title: "Automation"
         desc: >
-          We can help you build small services or MVPs from a first iteration of a business idea to deployed code.
-        icon: fas fa-feather #find more at https://fontawesome.com/icons
+          Allow us to automate your business or development processes. Test-suites, automated tasks & toolings, continuous integration, and more.
+        icon: fas fa-robot  #find more at https://fontawesome.com/icons
 
       # - title: "Architecture Design"
       #   desc: "We can provide implementation designs and whitepapers for a new project or alterations and recommendations of an existing project."
