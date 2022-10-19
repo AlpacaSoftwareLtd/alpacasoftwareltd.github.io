@@ -38,3 +38,4 @@ markdown: kramdown
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 # formspree_form_path: "f/a_form_id"
+form_post_url: "https://getform.io/f/167ca2dd-6f1f-46c6-b429-453ad132a01c"
