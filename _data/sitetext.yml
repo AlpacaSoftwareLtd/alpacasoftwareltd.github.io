@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "We utilize Python frameworks to solve most of our challenges."
     section: services
     list:
       - title: "Automation"
