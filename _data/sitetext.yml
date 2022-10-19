@@ -26,7 +26,7 @@ en: &DEFAULT_EN
       - title: "MVP"
         desc: >
           From your business idea to a deployed service. We can take your business idea and make a first iteration with the core functionality ready for user testing.
-        icon: fas fa-feather #find more at https://fontawesome.com/icons
+        icon: fas fa-rocket #find more at https://fontawesome.com/icons
 
       - title: "Web applications"
         desc: >
