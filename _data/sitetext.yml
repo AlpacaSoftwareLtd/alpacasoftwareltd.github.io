@@ -30,7 +30,7 @@ en: &DEFAULT_EN
 
       - title: "Web applications"
         desc: >
-          From mockups to full-fledged web applications. Or if you need new additions or migrations to your existing application, we are more than happy to help.
+          From mockups to full-fledged web applications. If you need new features or migrations to your existing application, we are more than happy to help.
 
         icon: far fa-window-maximize #find more at https://fontawesome.com/icons
 
