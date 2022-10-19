@@ -70,11 +70,11 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
+    text: ""
     body: >
-      We are a small London consultancy helping startups and other organizations to create
-      great products. We deliver well crafted code with documentation and test-suite
-      following **best practices**. Our aim is to provice something easy to maintain and build upon.
+      We are a small Python house with our base in London. We help startups and other organizations to create
+      great products, delivering quality code with **documentation** and **test coverage**
+      utilizing best industry practices. Our aim is to provice something **easy to maintain** and build upon.
     section: about
 
   clients:
