@@ -21,15 +21,34 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Automation"
+        desc: >
+          We can help you automate business or development processes. This includes introducing test-suites, task managers, deployment
+          tooling and more.
+        icon: fas fa-robot  #find more at https://fontawesome.com/icons
+
+      - title: "Web applications"
+        desc: >
+          We can help you build a full-fledged web application from backend to frontend and APIs in between using the Python ecosystem.
+        icon: fas fa-window-maximize #find more at https://fontawesome.com/icons
+
+      - title: "Microservices"
+        desc: >
+          We can help you build small services or MVPs from a first iteration of a business idea to deployed code.
+        icon: fas fa-feather #find more at https://fontawesome.com/icons
+
+      # - title: "Architecture Design"
+      #   desc: "We can provide implementation designs and whitepapers for a new project or alterations and recommendations of an existing project."
+      #   icon: fas fa-home #find more at https://fontawesome.com/icons
+      # - title: "E-Commerce"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      #   icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      # - title: "Responsive Design"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      #   icon: fas fa-laptop
+      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #   desc: "Your description here, full **Markdown** support"
+      #   icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
