@@ -18,7 +18,8 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "We utilize Python frameworks to solve most of our challenges."
+    text: >
+      We utilize Python frameworks to solve most of our backend challenges and Vue.JS when frontend is calling.
     section: services
     list:
       - title: "Automation"
@@ -29,7 +30,8 @@ en: &DEFAULT_EN
 
       - title: "Web applications"
         desc: >
-          We can help you build a full-fledged web application from backend to frontend and APIs in between using the Python ecosystem.
+          We can help you build a full-fledged web application or REST APIs from just mockups or a general idea. Happy to sit down
+          and design something together.
         icon: fas fa-window-maximize #find more at https://fontawesome.com/icons
 
       - title: "Microservices"
