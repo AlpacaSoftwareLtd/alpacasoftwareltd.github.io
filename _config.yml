@@ -16,7 +16,7 @@
 url    : "https://www.alpacasoftware.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Alpaca Software
+title      : Alpaca Software Ltd
 email      : alpacasoftwareltd@gmail.com #this is also the email contact forms will go to
 description: "Quality software and best practices"
 author     : Manos
