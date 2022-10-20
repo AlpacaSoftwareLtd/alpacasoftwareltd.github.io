@@ -93,9 +93,9 @@ en: &DEFAULT_EN
     title: "About Us"
     text: ""
     body: >
-      We are a singleton Python house with our base in London. We work with startups and other organizations to create
-      great solutions to various problems. Our aim is to deliver well-documented clean code that is tested and utilizes
-      best industry practices. We want you to have something **easy to maintain** so that you can build upon.
+      We're a singleton Python house with our base in London. Our aim is helping startups and other organizations to solve
+      various technical challenges **without sacrificing code quality and maintenability**. We have a deep understanding of the software lifecycle, velocity and technical debt. So we aim at delivering well-documented clean code that is tested and utilizes
+      best industry practices. We want you to have the least headaches possible.
     section: about
 
   clients:
