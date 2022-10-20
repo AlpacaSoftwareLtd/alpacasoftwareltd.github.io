@@ -5,7 +5,7 @@ caption:
   thumbnail: assets/img/portfolio/photocuppa.png
 
 title: Photo sharing MVP
-subtitle: A highly responsive UI with image editing capabilities and image sharing with protection.
+subtitle: A highly responsive UI with image editing capabilities at backend & frontend and image sharing with copyright protection.
 image: assets/img/portfolio/photocuppa.png
 alt: Photocuppa snapshot
 ---
