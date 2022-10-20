@@ -1,7 +1,7 @@
 ---
 caption:
   title: Landing page
-  subtitle: Responsive UI for new education campaign.
+  subtitle: Additions to responsive UI for new education campaign.
   thumbnail: assets/img/portfolio/ambition_bigbluedoor.png
 
 title: Landing page
