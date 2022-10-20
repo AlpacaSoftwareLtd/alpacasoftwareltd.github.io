@@ -22,7 +22,7 @@ description: "Quality software and best practices"
 author     : Manos
 
 logo:     #optional, defaults to site title
-  path: assets\img\alpacalogo_notext.png
+  path: assets\img\alpaca_white_with_text.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
