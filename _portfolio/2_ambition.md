@@ -1,11 +1,11 @@
 ---
 caption:
   title: Landing page
-  subtitle: New responsive UI, features, UI testing, backend migrations.
+  subtitle: Responsive UI for new education campaign.
   thumbnail: assets/img/portfolio/ambition_bigbluedoor.png
 
 title: Landing page
-subtitle: Helped migrating the backend and building a new responsive UI.
+subtitle: We helped modernizing the backend and added new frontend components for a new campaign.
 image: assets/img/portfolio/ambition_bigbluedoor.png
 alt: Ambition institute snapshot
 ---
