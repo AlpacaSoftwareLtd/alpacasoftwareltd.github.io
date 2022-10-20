@@ -93,7 +93,7 @@ en: &DEFAULT_EN
     title: "About Us"
     text: ""
     body: >
-      We are a small Python house with our base in London. We work with startups and other organizations to create
+      We are a singleton Python house with our base in London. We work with startups and other organizations to create
       great solutions to various problems. Our aim is to deliver well-documented clean code that is tested and utilizes
       best industry practices. We want you to have something **easy to maintain** so that you can build upon.
     section: about
