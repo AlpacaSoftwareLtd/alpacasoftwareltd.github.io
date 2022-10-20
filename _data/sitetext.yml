@@ -93,9 +93,9 @@ en: &DEFAULT_EN
     title: "About Us"
     text: ""
     body: >
-      We are a small Python house with our base in London. We help startups and other organizations to create
-      great products, delivering quality code with **documentation** and **test coverage**
-      utilizing best industry practices. Our aim is to provice something **easy to maintain** and build upon.
+      We are a small Python house with our base in London. We work with startups and other organizations to create
+      great solutions to various problems. Our aim is to deliver well-documented clean code that is tested and utilizes
+      best industry practices. We want you to have something **easy to maintain** so that you can build upon.
     section: about
 
   clients:
