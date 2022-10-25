@@ -36,7 +36,7 @@ en: &DEFAULT_EN
 
       - title: "Automation"
         desc: >
-          Allow us to automate your business or development processes; test-suites, automated tasks & toolings, continuous integration, it all goes.
+          Automate your business or development processes; test-suites, automated tasks & toolings, continuous integration, it all goes.
         icon: fas fa-robot  #find more at https://fontawesome.com/icons
 
       # - title: "Architecture Design"
