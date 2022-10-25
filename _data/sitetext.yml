@@ -19,7 +19,7 @@ en: &DEFAULT_EN
   services:
     title: "Services"
     text: >
-      We utilize **Python frameworks** to solve most of our backend challenges and **Vue.JS** when frontend is calling.
+      We utilize <b>Python frameworks</b> to solve most of our backend challenges and <b>Vue.JS</b> when frontend is calling.
     section: services
     list:
 
