@@ -54,7 +54,19 @@
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
           </div>
+
+          <!-- Google reCAPTCHA -->
+          <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+          
         </form>
+
+        <script>
+          grecaptcha.enterprise.ready(function() {
+              grecaptcha.enterprise.execute('6LdfLkckAAAAAKDgp8HQrq3egHYPfoHX_p2HT-XV', {action: 'login'}).then(function(token) {
+                document.getElementById('captchaResponse').value = token;
+              });
+          });
+        </script>
       </div>
     </div>
   </div>
