@@ -2,8 +2,8 @@
 {% assign s = site.data.sitetext[site.locale].stack %}
 <section class="page-section" id="{{ s.section | default: 'stack' }}">
   <div class="container">
-    <span class="section-label">Practices</span>
-    <h2 class="section-heading">{{ s.title | default: 'Our Stack' }}</h2>
+    <span class="section-label">{{ s.label | default: 'Expertise' }}</span>
+    <h2 class="section-heading">{{ s.title | default: 'Our Focus' }}</h2>
     <div class="section-divider"></div>
     {% if s.intro %}
     <p class="stack-intro">{{ s.intro }}</p>
