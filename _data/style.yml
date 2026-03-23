@@ -7,6 +7,7 @@ highlight: "#fec810"
 
 #Image Customization
 header-image: "../img/waves.jpg"
-contact-image: "../img/contact.png"
+# contact-image: "../img/3d-render-banner-with-network-communications-low-poly-design.jpg"
+contact-image: "../img/globe_alpha30.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
