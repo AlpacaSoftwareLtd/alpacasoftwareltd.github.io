@@ -1,0 +1,52 @@
+// How We Work
+#howwework {
+  background: #0d0d0d;
+
+  .section-label  { color: rgba(255, 255, 255, 0.28); }
+  .section-heading { color: $white; }
+  .section-divider { background: $accent; }
+
+  .steps {
+    .step {
+      display: flex;
+      gap: 40px;
+      padding: 32px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      &:last-child { border-bottom: 1px solid rgba(255, 255, 255, 0.07); }
+
+      .step-number {
+        font-family: $font-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.1);
+        min-width: 60px;
+        line-height: 1.2;
+        flex-shrink: 0;
+      }
+
+      .step-content {
+        h3 {
+          font-family: $font-sans;
+          font-size: 15px;
+          font-weight: 600;
+          letter-spacing: 0.3px;
+          color: $white;
+          margin-bottom: 8px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 1.75;
+          color: rgba(255, 255, 255, 0.42);
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .steps .step {
+      gap: 24px;
+      .step-number { font-size: 28px; min-width: 44px; }
+    }
+  }
+}

@@ -1,47 +1,31 @@
-// Styling for the contact section
-section#contact {
-  background-color: $gray-900;
-  background-image: url("#{$contact-image}");
-  background-repeat: no-repeat;
-  background-position: center;
-  .section-heading {
-    color: $white;
-  }
-  .form-group {
-    margin-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
-    }
-    input.form-control {
-      height: auto;
-    }
-    textarea.form-control {
-      height: 248px;
-    }
-  }
-  .form-control:focus {
-    border-color: $primary;
+// Contact
+#contact {
+  background: $surface;
+
+  .form-control {
+    border: 1px solid $border;
+    border-radius: 0;
+    font-family: $font-sans;
+    font-size: 15px;
+    padding: 14px 16px;
+    height: auto;
+    background: $white;
+    color: $black;
     box-shadow: none;
+    transition: border-color 0.2s;
+
+    &:focus { border-color: $accent; box-shadow: none; outline: none; }
+    &::placeholder { color: #c0c0c0; font-weight: 400; }
   }
-  ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  ::-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-ms-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
+
+  textarea.form-control { height: 200px; resize: vertical; }
+
+  .form-group { margin-bottom: 20px; }
+
+  .help-block {
+    display: block;
+    font-size: 13px;
+    color: #c0392b;
+    margin-top: 6px;
   }
 }

@@ -1,5 +1,45 @@
-// Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+// Services
+#services {
+  background: $white;
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid $border;
+    border-left: 1px solid $border;
+
+    .service-item {
+      padding: 48px 40px;
+      border-right: 1px solid $border;
+      border-bottom: 1px solid $border;
+
+      .service-number {
+        display: block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: $accent;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-family: $font-serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: $black;
+        margin-bottom: 14px;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 1.75;
+        color: $muted;
+        margin: 0;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
 }

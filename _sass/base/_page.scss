@@ -1,71 +1,85 @@
-// Global styling for this template
+// Global styles
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
+  font-family: $font-sans;
+  font-size: 17px;
+  line-height: 1.7;
+  color: $black;
+  background: $white;
   overflow-x: hidden;
-  @include body-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  line-height: 1.75;
+p { line-height: 1.75; margin-bottom: 1rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 0;
 }
 
 a {
-  color: $primary;
-  &:hover {
-    color: darken($primary, 10%);
-  }
-}
-
-.text-primary {
-  color: $primary !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  @include heading-font;
+  color: $accent;
+  text-decoration: none;
+  &:hover { color: darken($accent, 10%); text-decoration: underline; }
 }
 
 .page-section {
   padding: 100px 0;
-  h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+  @media (max-width: 768px) { padding: 72px 0; }
+}
+
+// Section anatomy
+.section-label {
+  display: block;
+  font-family: $font-sans;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $muted;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-family: $font-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: $black;
+  margin-bottom: 16px;
+  @media (max-width: 768px) { font-size: 32px; }
+}
+
+.section-divider {
+  width: 40px;
+  height: 2px;
+  background: $accent;
+  margin-bottom: 56px;
+}
+
+// About
+#about {
+  background: $white;
+
+  .about-body {
+    max-width: 640px;
+    font-size: 18px;
+    line-height: 1.85;
+    color: $muted;
+
+    strong { color: $black; font-weight: 600; }
+    p { margin-bottom: 0; }
   }
-  h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    text-transform: none;
-    @include serif-font;
-  }
-}
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
 }
 
-// Highlight color customization
-::-moz-selection {
-  background: $primary;
-  text-shadow: none;
-}
+// Selection
+::selection         { background: $accent; color: $white; text-shadow: none; }
+::-moz-selection    { background: $accent; color: $white; text-shadow: none; }
+img::selection      { background: transparent; }
+img::-moz-selection { background: transparent; }
 
-::selection {
-  background: $primary;
-  text-shadow: none;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
+// Bootstrap text-primary override
+.text-primary { color: $accent !important; }

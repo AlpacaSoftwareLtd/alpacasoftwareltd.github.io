@@ -1,161 +1,85 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
 en: &DEFAULT_EN
   header:
     title:
-    text: Great software <br>best practices
-    button: Tell Me More
+    text: "Great software,<br><em>best practices.</em>"
+    subtitle: "We build clean, tested, maintainable software for startups and growing companies. Based in London."
+    button: What we do
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: >
-      We utilize <b>Python frameworks</b> to solve most of our backend challenges and <b>Vue.JS</b> when frontend is calling.
+    text: ""
     section: services
     list:
-
       - title: "MVP"
         desc: >
-          From your business idea to a deployed service. We can create a design and make a first iteration with the core functionality ready for user testing.
-        icon: fas fa-rocket #find more at https://fontawesome.com/icons
+          From your business idea to a deployed service. We design and build a first iteration with core functionality ready for user testing.
+        icon: fas fa-rocket
 
-      - title: "Web applications"
+      - title: "Web Applications"
         desc: >
-          From mockups to full-fledged web applications. If you need new features or migrations to your existing application, we are more than happy to help.
-
-        icon: far fa-window-maximize #find more at https://fontawesome.com/icons
+          From mockups to full-fledged web applications. New features, migrations, or a ground-up build — we're comfortable with the full lifecycle.
+        icon: far fa-window-maximize
 
       - title: "Automation"
         desc: >
-          Automate your business or development processes; test-suites, automated tasks & toolings, continuous integration, it all goes.
-        icon: fas fa-robot  #find more at https://fontawesome.com/icons
+          Automate business and development processes. Test suites, CI/CD pipelines, scheduled tasks, internal tooling — all of it.
+        icon: fas fa-robot
 
-      # - title: "Architecture Design"
-      #   desc: "We can provide implementation designs and whitepapers for a new project or alterations and recommendations of an existing project."
-      #   icon: fas fa-home #find more at https://fontawesome.com/icons
-      # - title: "E-Commerce"
-      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      #   icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      # - title: "Responsive Design"
-      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      #   icon: fas fa-laptop
-      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-      #   desc: "Your description here, full **Markdown** support"
-      #   icon: fab fa-markdown
+  stack:
+    section: stack
+    title: "Engineering Practices"
+    intro: "Ten years across tech, healthcare and finance."
+    columns:
+      - title: "Architecture"
+        items:
+          - Microservices
+          - Real-time applications
+          - Security-sensitive systems
+      - title: "Technologies"
+        items:
+          - Linux systems
+          - Python for backend
+          - Vue.js for frontend
+          - SQL-based databases
+          - Google Cloud
+          - Networking protocols
+      - title: "Assurance"
+        items:
+          - Test practices (TDD, BDD)
+          - End-to-end testing
+          - Continuous delivery (CI/CD)
+          - Documentation
 
-  portfolio:
-    title: "Portfolio"
-    text: "Have a look in some of the things we built"
-    section: portfolio
-    closebutton: "Close Project"
-
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  howwework:
+    section: howwework
+    title: "How We Work"
+    steps:
+      - number: "01"
+        title: "Understand"
+        desc: "We take time to understand your problem before writing a line of code. Requirements, constraints, context — all of it."
+      - number: "02"
+        title: "Design"
+        desc: "Architecture and approach agreed upfront. No surprises mid-build, no costly pivots."
+      - number: "03"
+        title: "Build"
+        desc: "Clean, tested, documented code. Regular check-ins. No black box."
+      - number: "04"
+        title: "Handover"
+        desc: "We document thoroughly and support you post-delivery. We don't disappear."
 
   about:
     title: "About Us"
     text: ""
     body: >
       We're a singleton Python house with our base in London. Our aim is helping startups and other organizations to solve
-      various technical challenges **without sacrificing code quality and maintenability**. We have a deep understanding of the software lifecycle, velocity and technical debt. So we aim at delivering well-documented clean code that is tested and utilizes
+      various technical challenges **without sacrificing code quality and maintainability**. We have a deep understanding of the software lifecycle, velocity and technical debt. So we aim at delivering well-documented clean code that is tested and utilizes
       best industry practices. We want you to have the least headaches possible.
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  # team:
-  #   title: "OUR AMAZING TEAM"
-  #   text: "Lorem ipsum dolor sit amet consectetur."
-  #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-  #   section: team
-  #   people:
-  #     - name: "Kay Garland"
-  #       role: "Lead Designer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Larry Parker"
-  #       role: "Lead Marketer"
-  #       image: assets/img/team/2.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Diana Perterson"
-  #       role: "Lead Developer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-
   contact:
     title: "Contact Us"
-    text: "Send us an enquiry in the form below"
+    text: ""
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -171,16 +95,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      # - url: https://twitter.com
-      #   icon: "fab fa-twitter"
-      # - url: https://facebook.com
-      #   icon: "fab fa-facebook-f"
       - url: "https://www.linkedin.com/company/74700418"
         icon: "fab fa-linkedin-in"
       - url: https://github.com/AlpacaSoftwareLtd
         icon: "fab fa-github"
-      # - url: https://instagram.com
-      #   icon: "fab fa-instagram"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:

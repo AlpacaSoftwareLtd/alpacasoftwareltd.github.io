@@ -1,0 +1,20 @@
+<!-- How We Work -->
+{% assign s = site.data.sitetext[site.locale].howwework %}
+<section class="page-section" id="{{ s.section | default: 'howwework' }}">
+  <div class="container">
+    <span class="section-label">Process</span>
+    <h2 class="section-heading">{{ s.title | default: 'How We Work' }}</h2>
+    <div class="section-divider"></div>
+    <div class="steps">
+      {% for step in s.steps %}
+      <div class="step">
+        <div class="step-number">{{ step.number }}</div>
+        <div class="step-content">
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

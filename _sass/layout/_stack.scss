@@ -1,0 +1,50 @@
+// Stack
+#stack {
+  background: $surface;
+
+  .stack-intro {
+    max-width: 520px;
+    font-size: 17px;
+    line-height: 1.75;
+    color: $muted;
+    margin-bottom: 56px;
+  }
+
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+
+    .stack-col {
+      h4 {
+        font-family: $font-sans;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: $black;
+        margin-bottom: 20px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid $border;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          font-size: 15px;
+          color: $muted;
+          padding: 8px 0;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+          &:last-child { border-bottom: none; }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stack-grid { grid-template-columns: 1fr; gap: 32px; }
+  }
+}
