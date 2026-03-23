@@ -79,7 +79,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: ""
+    text: "Have a project in mind? Drop us a line."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

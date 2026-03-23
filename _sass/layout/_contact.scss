@@ -2,6 +2,13 @@
 #contact {
   background: $surface;
 
+  .contact-intro {
+    font-size: 18px;
+    color: $muted;
+    margin-bottom: 36px;
+    max-width: 480px;
+  }
+
   .form-control {
     border: 1px solid $border;
     border-radius: 0;

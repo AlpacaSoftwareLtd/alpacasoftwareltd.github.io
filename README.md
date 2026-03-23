@@ -30,6 +30,10 @@ Content and style are driven by config files, no template changes needed for mos
 | `_data/style.yml` | Colors, background images, fonts |
 | `_portfolio/` | Portfolio grid items |
 
+## Contact
+
+Uses a `mailto:` link — no third-party form service. The email address is assembled at runtime in `_includes/contact.html` to avoid plain-text exposure to scrapers. To change the address, update the `u` and `d` variables in that file.
+
 ## License
 
 [MIT](LICENSE.txt)
