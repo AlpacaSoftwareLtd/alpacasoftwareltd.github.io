@@ -28,8 +28,9 @@ en: &DEFAULT_EN
 
   stack:
     section: stack
-    title: "Engineering Practices"
-    intro: "Ten years across tech, healthcare and finance."
+    label: "Expertise"
+    title: "Our Focus"
+    intro: "We combine a decade of experience with a production-hardened toolset to build reliable, high-performance systems."
     columns:
       - title: "Architecture"
         items:
@@ -38,20 +39,20 @@ en: &DEFAULT_EN
           - Real-time applications
           - Security-sensitive systems
           - REST API
-      - title: "Technologies"
-        items:
-          - Linux
-          - Python / Vue.js
-          - PostgreSQL / Redis
-          - Flask / FastAPI / Django REST
-          - Google Cloud
-          - Docker, Kubernetes, Ansible and more
-      - title: "Assurance"
+      - title: "Methodologies"
         items:
           - Multi-level test coverage (TDD, BDD, e2e, CI/CD)
           - Code reviews and pair programming
           - Continuous delivery and automation
           - Documentation
+      - title: "Core Stack"
+        items:
+          - Linux
+          - Google Cloud
+          - Python / Django / FastAPI
+          - Vue.js / Tailwind CSS
+          - SQL / No-SQL
+          - Kubernetes, Ansible, and more
 
   howwework:
     section: howwework
