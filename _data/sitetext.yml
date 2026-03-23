@@ -33,22 +33,24 @@ en: &DEFAULT_EN
     columns:
       - title: "Architecture"
         items:
+          - DX/UX driven design
           - Microservices
           - Real-time applications
           - Security-sensitive systems
+          - REST API
       - title: "Technologies"
         items:
-          - Linux systems
-          - Python for backend
-          - Vue.js for frontend
-          - SQL-based databases
+          - Linux
+          - Python / Vue.js
+          - PostgreSQL / Redis
+          - Flask / FastAPI / Django REST
           - Google Cloud
-          - Networking protocols
+          - Docker, Kubernetes, Ansible and more
       - title: "Assurance"
         items:
-          - Test practices (TDD, BDD)
-          - End-to-end testing
-          - Continuous delivery (CI/CD)
+          - Multi-level test coverage (TDD, BDD, e2e, CI/CD)
+          - Code reviews and pair programming
+          - Continuous delivery and automation
           - Documentation
 
   howwework:
