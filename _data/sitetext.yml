@@ -34,14 +34,15 @@ en: &DEFAULT_EN
     columns:
       - title: "Architecture"
         items:
-          - DX/UX driven design
           - Microservices
           - Real-time applications
           - Security-sensitive systems
-          - REST API
+          - Application Interfaces (APIs)
+          - UX/DX driven and responsive design
       - title: "Methodologies"
         items:
-          - Multi-level test coverage (TDD, BDD, e2e, CI/CD)
+          - Maintainable software
+          - Layered testing; TDD, BDD, e2e, CI/CD
           - Code reviews and pair programming
           - Continuous delivery and automation
           - Documentation
@@ -75,9 +76,7 @@ en: &DEFAULT_EN
     title: "About Us"
     text: ""
     body: >
-      We're a singleton Python house with our base in London. Our aim is helping startups and other organizations to solve
-      various technical challenges **without sacrificing code quality and maintainability**. We have a deep understanding of the software lifecycle, velocity and technical debt. So we aim at delivering well-documented clean code that is tested and utilizes
-      best industry practices. We want you to have the least headaches possible.
+      Based in London, we are a specialist Python engineering consultancy. We partner with startups and growing organizations to solve complex technical challenges **without compromising on long-term maintainability**. We have a deep understanding of the software lifecycle, development velocity, and the true cost of technical debt. By delivering clean, tested, and well-documented code, we ensure your technical foundation is built for scale, giving you the confidence to focus on your business goals.
     section: about
 
   contact:
